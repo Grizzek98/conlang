@@ -2,7 +2,7 @@ import random as r
 
 V = 'a', 'e', 'i', 'o', 'u'
 C = 'p', 'b', 'v', 'm', 'w', 'th', 'tj', 't', 'd', 's', 'ts', 'tl', 'n', 'l', 'sh', 'sj', 'ch', 'cj', 'r', 'j', 'k', 'g', 'h', 'hl'
-E = 'p', 'b', 'v', 'm', 'w', 'th', 'tj', 't', 'd', 's', 'n', 'l', 'sh', 'sj', 'ch', 'cj', 'r', 'j', 'k', 'g', 'h'
+E = 'p', 'b', 'v', 'm', 'w', 'th', 'tj', 't', 'd', 's', 'n', 'l', 'sh', 'sj', 'ch', 'cj', 'j', 'k', 'g', 'h'
 
 starting_syllable_types = 'EVC', 'EV', 'V', 'VC'
 syllable_types = 'CVC', 'CV', 'VC', 'V', 'VV'
@@ -10,7 +10,7 @@ syllable_types = 'CVC', 'CV', 'VC', 'V', 'VV'
 adjective_prefixes = 'du', 'dia'
 
 # must be set to 'verb', 'adjective', or 'noun'
-word_type = 'verb'
+word_type = 'noun'
 
 word_count = 10
 
@@ -69,3 +69,4 @@ def create_syllable():
                 
 if __name__ == '__main__':
     main()
+
