@@ -12,5 +12,5 @@ While there are some rules in place for syllable construction, those rules could
 
 ## Future Work
 
-- Create more rules for syllable / word construction as to not allow impossible pronunciations
+- Create additional rules for syllable / word construction as to not allow impossible and hard pronunciations, including not allowing certain phonemes to be placed next to each other in the middle of words (such as 'ts' and 'tl')
 - Create additional word generators, perhaps for numbers, adverbs, etc (though this is not strictly necessary as the noun generator can generally be used for all other types as well)
